@@ -45,7 +45,6 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'resume',
-    'zoho',
 
     #3rd party
     'crispy_forms',

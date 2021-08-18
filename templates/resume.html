@@ -29,8 +29,17 @@
     
             </nav>
 
-            
+            <div id="logos">
+              <img src="https://myresumeapp.netlify.app/img/zuri.png" 
+              width="45px" height="45px" alt="zuri" class="banner" />
+              <img src="https://myresumeapp.netlify.app/img/hng.png" 
+              width="45px" height="45px" alt="hng" class="banner" />
+              <img src="https://myresumeapp.netlify.app/img/i4g.png" 
+              width="45px" height="45px" alt="i4g" class="banner" />
+          </div>
         </header>
+
+        
 
         <!--====================================================
                         EXPERIENCE
@@ -74,13 +83,17 @@
         </div>
       </section>
 
-        <div class="col-12">
+      <!-- <div class="section">
+	    	<div class="container">
+				  <div class="row">
+					  <div class="col-sm-5"> -->
+        <div class="col-sm-8" style="width:800px; margin:0 auto;">
             <h3>Contact Me</h3>
             <form method="post">
                 {% csrf_token %}
                 {{ form|crispy }}
                 <div class="form-actions">
-                    <button type="submit" class="btn btn-success">Send</button>
+                    <button type="submit" class="btn btn-success" style="width:700px; margin:0 auto;">Send</button>
                 </div>
             </form>
 
